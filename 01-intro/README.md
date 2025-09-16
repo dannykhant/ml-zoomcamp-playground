@@ -242,7 +242,7 @@
     - Access Rows by Positional Element
         - df.iloc[[1, 3]]
     - Reset Index
-        - def.reset_index()
+        - df.reset_index()
         - df.reset_index(drop=True)
             - To remove the old index col
 - Element-wise Operations
