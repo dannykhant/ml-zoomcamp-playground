@@ -1,0 +1,14 @@
+Q1
+uv 0.8.14
+
+Q2
+sdist = { url = "https://files.pythonhosted.org/packages/9e/a5/4ae3b3a0755f7b35a280ac90b28817d1f380318973cff14075ab41ef50d9/scikit_learn-1.6.1.tar.gz", hash = "sha256:b4fc2525eca2c69a59260f583c56a7557c6ccdf8deafdba6e060f94c1c59738e", size = 7068312, upload-time = "2025-01-10T08:07:55.348Z" }
+
+Q3
+0.5336072702798061
+
+Q4
+{'probability': 0.5340417283801275}
+
+Q5
+{'probability': 0.9933071490756734}
