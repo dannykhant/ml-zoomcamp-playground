@@ -11,4 +11,8 @@ Q4
 {'probability': 0.5340417283801275}
 
 Q5
+REPOSITORY                 TAG       IMAGE ID       CREATED          SIZE
+agrigorev/zoomcamp-model   2025      4a9ecc576ae9   3 days ago       121MB
+
+Q6
 {'probability': 0.9933071490756734}
