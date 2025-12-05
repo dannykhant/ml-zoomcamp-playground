@@ -1,0 +1,5 @@
+Q5: What's the size of this base image?
+agrigorev/model-2025-hairstyle:v1    4528ad1525d5        608MB             0B        
+
+Q6: What's the output from the model?
+{'prediction': -0.10220833122730255}
