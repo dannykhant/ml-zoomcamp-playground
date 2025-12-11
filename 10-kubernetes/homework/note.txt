@@ -1,0 +1,42 @@
+Q1: Here <value> is the probability of getting a subscription. You need to choose the right one.
+{'conversion_probability': 0.49999999999842815, 'conversion': False}
+
+Q2: What's the version of kind that you have?
+kind version 0.30.0
+
+Q3: What's the smallest deployable computing unit that we can create and manage in Kubernetes (kind in our case)?
+Pod
+
+Q4: What's the Type of the service that is already running there?
+Name:                     kubernetes
+Namespace:                default
+Labels:                   component=apiserver
+                          provider=kubernetes
+Annotations:              <none>
+Selector:                 <none>
+Type:                     ClusterIP
+IP Family Policy:         SingleStack
+IP Families:              IPv4
+IP:                       10.96.0.1
+IPs:                      10.96.0.1
+Port:                     https  443/TCP
+TargetPort:               6443/TCP
+Endpoints:                172.19.0.2:6443
+Session Affinity:         None
+Internal Traffic Policy:  Cluster
+Events:                   <none>
+
+Q5: What's the command we need to run for that?
+kind load docker-image
+
+Q6: What is the value for <Port>?
+    Port:           9696/TCP
+    Host Port:      0/TCP
+
+Q7: Fill it in. What do we need to write instead of <???>?
+Labels:                 <none>
+  Labels:  app=subscription
+
+Q8: What was the maximum amount of the replicas during this test?
+NAME               REFERENCE                 TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+subscription-hpa   Deployment/subscription   cpu: 18%/20%   1         3         3          4m39s
